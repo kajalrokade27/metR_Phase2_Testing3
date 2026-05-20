@@ -1,7 +1,7 @@
 {
-  "job_id": "1138715f-71d7-410e-b7da-75e4a48979c8",
-  "output_dir": "/app/output/1138715f-71d7-410e-b7da-75e4a48979c8",
-  "run_at": "2026-05-20T12:10:18.876802+00:00",
+  "job_id": "d03bf097-2a6b-4d42-93f4-8524b8d0228c",
+  "output_dir": "/app/output/d03bf097-2a6b-4d42-93f4-8524b8d0228c",
+  "run_at": "2026-05-20T12:21:47.513830+00:00",
   "files_discovered": {
     "dita_file_count": 7,
     "dita_files": [
