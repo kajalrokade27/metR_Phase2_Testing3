@@ -1,0 +1,118 @@
+========================================================================
+  DITA OUTPUT VALIDATION REPORT
+========================================================================
+  Generated  : 2026-05-21 06:20:37
+  Output dir : /app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c
+  Files found: 13  (.dita + .ditamap)
+========================================================================
+
+------------------------------------------------------------------------
+  FILE   : approval/approval.dita
+  STATUS : [PASS]
+  Root tag     : reference
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : inspection_supervisor_responsibilities.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : procedure/procedure.dita
+  STATUS : [PASS]
+  Root tag     : task
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : purpose/purpose.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : reference/document_classification.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : reference/reference.dita
+  STATUS : [PASS]
+  Root tag     : concept
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : revision_history/revision_history.dita
+  STATUS : [PASS]
+  Root tag     : reference
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : approval_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : inspection_supervisor_responsibilities.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : procedure_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : purpose_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : reference_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+------------------------------------------------------------------------
+  FILE   : revision_history_map.ditamap
+  STATUS : [PASS]
+  Root tag     : map
+  DOCTYPE      : OK
+  Errors       : none
+
+========================================================================
+  SUMMARY
+------------------------------------------------------------------------
+  Total files : 13
+  Passed      : 13
+  Failed      : 0
+----------------------------------------
+  Total Dita Files generated         : 7
+  Total Headings counted             : 5
+  Total subheadings under Heading (per heading name):
+    - Approval                                          : 1 file(s)
+    - Procedure                                         : 1 file(s)
+    - Purpose                                           : 1 file(s)
+    - Reference                                         : 2 file(s)
+    - Revision History                                  : 1 file(s)
+  Total Ditamap Files generated      : 6
+  Root Ditamap                       : approval_map.ditamap
+  Total images counted               : 0
+========================================================================

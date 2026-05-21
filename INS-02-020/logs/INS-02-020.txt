@@ -1,0 +1,126 @@
+[2026-05-21T06:20:37.367894+00:00] detect_docx_toc No TOC styles or field codes detected.
+[2026-05-21T06:20:37.367985+00:00] detect_docx_toc No TOC styles, field codes, or SDT detected.
+[2026-05-21T06:20:37.368110+00:00] PipelineOrchestrator TOC DETECTED = False
+[2026-05-21T06:20:37.370597+00:00] PipelineOrchestrator Starting conversion pipeline for 'INS-02-020.docx'.
+[2026-05-21T06:20:37.370690+00:00] DocxToHtmlProcessor Converting 'INS-02-020.docx' from DOCX to HTML.
+[2026-05-21T06:20:37.374837+00:00] DocxToHtmlProcessor Opening DOCX archive: 'INS-02-020.docx'.
+[2026-05-21T06:20:37.375150+00:00] DocxToHtmlProcessor Reading relationships.
+[2026-05-21T06:20:37.375234+00:00] DocxToHtmlProcessor Parsing relationships from 'word/_rels/document.xml.rels'.
+[2026-05-21T06:20:37.375502+00:00] DocxToHtmlProcessor Extracted 9 relationship(s).
+[2026-05-21T06:20:37.375555+00:00] DocxToHtmlProcessor Extracting media files.
+[2026-05-21T06:20:37.375747+00:00] DocxToHtmlProcessor Copying 0 media file(s) to '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/media'.
+[2026-05-21T06:20:37.375797+00:00] DocxToHtmlProcessor Media copy complete -- 0 file(s) exported.
+[2026-05-21T06:20:37.375825+00:00] DocxToHtmlProcessor Reading list numbering definitions.
+[2026-05-21T06:20:37.375856+00:00] DocxToHtmlProcessor Parsing 'word/numbering.xml' for list type map.
+[2026-05-21T06:20:37.383053+00:00] DocxToHtmlProcessor Numbering map built with 221 numId(s).
+[2026-05-21T06:20:37.383643+00:00] DocxToHtmlProcessor Reading 'word/document.xml'.
+[2026-05-21T06:20:37.383926+00:00] DocxToHtmlProcessor Parsing 'word/document.xml' XML structure.
+[2026-05-21T06:20:37.385350+00:00] DocxToHtmlProcessor Processing document body paragraphs for 'INS-02-020.docx'.
+[2026-05-21T06:20:37.387193+00:00] DocxToHtmlProcessor Document body processed — 17 HTML block(s) generated for 'INS-02-020.docx'.
+[2026-05-21T06:20:37.387398+00:00] DocxToHtmlProcessor DOCX to HTML conversion complete.
+[2026-05-21T06:20:37.390149+00:00] HtmlToDitaNormalizer Normalizing generated HTML for DITA conversion.
+[2026-05-21T06:20:37.392804+00:00] helper_port.py class is running.
+[2026-05-21T06:20:37.402506+00:00] HtmlToDitaNormalizer HTML normalization complete.
+[2026-05-21T06:20:37.409213+00:00] TopicSplitter Splitting HTML content into topics.
+[2026-05-21T06:20:37.415787+00:00] TopicSplitter Found 7 topics.
+[2026-05-21T06:20:37.418250+00:00] TopicWriter Writing topics to .dita files.
+[2026-05-21T06:20:37.420524+00:00] TopicWriter Starting to write 7 topics to '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:20:37.420700+00:00] TopicWriter Building topic tree hierarchy.
+[2026-05-21T06:20:37.420781+00:00] TopicWriter Building topic tree from 7 flat topic(s).
+[2026-05-21T06:20:37.420833+00:00] TopicWriter Topic tree built — 6 root node(s).
+[2026-05-21T06:20:37.420874+00:00] TopicWriter Assigning output paths to all topics.
+[2026-05-21T06:20:37.420937+00:00] TopicWriter Assigning output paths for 6 node(s) under '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:20:37.421031+00:00] TopicWriter Assigned path for topic 'Inspection Supervisor Responsibilities': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/inspection_supervisor_responsibilities.dita'.
+[2026-05-21T06:20:37.421229+00:00] TopicWriter Assigned path for topic 'Purpose': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/purpose/purpose.dita'.
+[2026-05-21T06:20:37.421366+00:00] TopicWriter Assigning output paths for 1 node(s) under '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:20:37.421418+00:00] TopicWriter Assigned path for topic 'Document Classification': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/reference/document_classification.dita'.
+[2026-05-21T06:20:37.421446+00:00] TopicWriter Path assignment complete for 1 node(s).
+[2026-05-21T06:20:37.421474+00:00] TopicWriter Assigned path for topic 'Reference': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/reference/reference.dita'.
+[2026-05-21T06:20:37.421565+00:00] TopicWriter Assigned path for topic 'Procedure': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/procedure/procedure.dita'.
+[2026-05-21T06:20:37.421671+00:00] TopicWriter Assigned path for topic 'Approval': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/approval/approval.dita'.
+[2026-05-21T06:20:37.421904+00:00] TopicWriter Assigned path for topic 'Revision History': '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/revision_history/revision_history.dita'.
+[2026-05-21T06:20:37.421943+00:00] TopicWriter Path assignment complete for 6 node(s).
+[2026-05-21T06:20:37.421970+00:00] TopicWriter Walking topic tree and writing DITA files.
+[2026-05-21T06:20:37.421998+00:00] TopicWriter Writing topic 'Inspection Supervisor Responsibilities' to .dita file.
+[2026-05-21T06:20:37.422026+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.422228+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.422291+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.422455+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/inspection_supervisor_responsibilities.dita' written successfully.
+[2026-05-21T06:20:37.422492+00:00] TopicWriter Writing topic 'Purpose' to .dita file.
+[2026-05-21T06:20:37.422518+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.422657+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.422736+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.422902+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/purpose/purpose.dita' written successfully.
+[2026-05-21T06:20:37.422937+00:00] TopicWriter Writing topic 'Reference' to .dita file.
+[2026-05-21T06:20:37.422963+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.423276+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.423366+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.423523+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/reference/reference.dita' written successfully.
+[2026-05-21T06:20:37.423558+00:00] TopicWriter Writing topic 'Document Classification' to .dita file.
+[2026-05-21T06:20:37.423585+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.423862+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.423995+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.424157+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/reference/document_classification.dita' written successfully.
+[2026-05-21T06:20:37.424193+00:00] TopicWriter Writing topic 'Procedure' to .dita file.
+[2026-05-21T06:20:37.424223+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.425305+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.425462+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.425575+00:00] topic_structure Running convert_ol_to_steps on DITA body.
+[2026-05-21T06:20:37.426857+00:00] topic_structure Converting <ol> list to DITA <steps>.
+[2026-05-21T06:20:37.426958+00:00] topic_structure Style-based step/substep structure detected — emitting DTD-compliant <step><substeps><substep> hierarchy.
+[2026-05-21T06:20:37.427303+00:00] topic_structure <steps> block built with 16 step(s) (style-based mode).
+[2026-05-21T06:20:37.427349+00:00] topic_structure convert_ol_to_steps completed.
+[2026-05-21T06:20:37.427379+00:00] topic_structure Partitioning task body into context/steps/result.
+[2026-05-21T06:20:37.436395+00:00] topic_structure Taskbody partitioning complete.
+[2026-05-21T06:20:37.436859+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/procedure/procedure.dita' written successfully.
+[2026-05-21T06:20:37.436911+00:00] TopicWriter Writing topic 'Approval' to .dita file.
+[2026-05-21T06:20:37.436943+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.437676+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.438158+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.438240+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-05-21T06:20:37.439392+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-05-21T06:20:37.439619+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/approval/approval.dita' written successfully.
+[2026-05-21T06:20:37.439663+00:00] TopicWriter Writing topic 'Revision History' to .dita file.
+[2026-05-21T06:20:37.439693+00:00] topic_structure Converting HTML fragment to DITA body.
+[2026-05-21T06:20:37.440265+00:00] topic_structure No section headings found — rendering flat body.
+[2026-05-21T06:20:37.440493+00:00] topic_structure Flat DITA body rendered successfully.
+[2026-05-21T06:20:37.440553+00:00] topic_structure Ensuring <refbody> content is correctly wrapped in a <section> element.
+[2026-05-21T06:20:37.441193+00:00] topic_structure Wrapped <refbody> content in a single <section>.
+[2026-05-21T06:20:37.441393+00:00] TopicWriter Topic '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/revision_history/revision_history.dita' written successfully.
+[2026-05-21T06:20:37.441436+00:00] TopicWriter All 7 topic file(s) written successfully.
+[2026-05-21T06:20:37.443865+00:00] TopicWriter Finished writing .dita files.
+[2026-05-21T06:20:37.446396+00:00] DitaMapBuilder Generating DITAMAP file.
+[2026-05-21T06:20:37.450161+00:00] DitaMapBuilder DITAMAP generation complete.
+[2026-05-21T06:20:37.458080+00:00] DitaPostProcessor Post-processing all generated DITA files.
+[2026-05-21T06:20:37.463308+00:00] DitaPostProcessor Starting EMF->image conversion in '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c/media'.
+[2026-05-21T06:20:37.463476+00:00] DitaPostProcessor No EMF files converted (none found or all failed).
+[2026-05-21T06:20:37.469887+00:00] DitaPostProcessor Post-processing complete.
+[2026-05-21T06:20:37.472409+00:00] PipelineOrchestrator Running concept reclassification pass on topic files.
+[2026-05-21T06:20:37.472567+00:00] PipelineOrchestrator Concept reclassification complete — no files required updating.
+[2026-05-21T06:20:37.472627+00:00] HyperlinkResolver Resolving internal hyperlinks.
+[2026-05-21T06:20:37.474979+00:00] HyperlinkResolver Resolving internal hyperlinks in 7 DITA file(s) under '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:20:37.476298+00:00] HyperlinkResolver Hyperlink resolution complete -- no anchor xrefs required updating.
+[2026-05-21T06:20:37.476347+00:00] HyperlinkResolver Hyperlink resolution complete.
+[2026-05-21T06:20:37.478868+00:00] PipelineOrchestrator Running DTD compliance validation on all output files.
+[2026-05-21T06:20:37.481290+00:00] DitaDtdValidator Starting DTD structural compliance check for all output files in '/app/output/ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:20:37.483306+00:00] DitaDtdValidator [PASS] 'approval.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483359+00:00] DitaDtdValidator [PASS] 'inspection_supervisor_responsibilities.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483413+00:00] DitaDtdValidator [PASS] 'procedure.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483444+00:00] DitaDtdValidator [PASS] 'purpose.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483470+00:00] DitaDtdValidator [PASS] 'document_classification.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483495+00:00] DitaDtdValidator [PASS] 'reference.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483519+00:00] DitaDtdValidator [PASS] 'revision_history.dita' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483544+00:00] DitaDtdValidator [PASS] 'approval_map.ditamap' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483576+00:00] DitaDtdValidator [PASS] 'inspection_supervisor_responsibilities.ditamap' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483601+00:00] DitaDtdValidator [PASS] 'procedure_map.ditamap' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483626+00:00] DitaDtdValidator [PASS] 'purpose_map.ditamap' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483650+00:00] DitaDtdValidator [PASS] 'reference_map.ditamap' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483673+00:00] DitaDtdValidator [PASS] 'revision_history_map.ditamap' - This file is following DTD-compliant structure.
+[2026-05-21T06:20:37.483698+00:00] DitaDtdValidator All 13 output file(s) are following DTD-compliant structure.
+[2026-05-21T06:20:37.485154+00:00] DitaDtdValidator Validation report written: 'INS-02-020_report.txt'.
+[2026-05-21T06:20:37.487614+00:00] PipelineOrchestrator Successfully converted 'INS-02-020.docx'.
+[2026-05-21T06:20:37.491834+00:00] ConversionService class completed successfully.
+[2026-05-21T06:20:37.497107+00:00] Upload Endpoint Successfully processed 'INS-02-020.docx' for user 'ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:20:37.497198+00:00] Upload Endpoint Processing slot released for user 'ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:21:37.959066+00:00] Download Endpoint Received download request for user 'ece7bc75-2185-41fc-9beb-743b7aafc39c'.
+[2026-05-21T06:21:37.959189+00:00] DownloadService class is running.
